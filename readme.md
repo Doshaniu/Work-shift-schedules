@@ -14,7 +14,7 @@
 > ```source venv/scripts/activate```
 >3. Установите зависимости из файла requirements.txt
 >
-> ```python3 -m pip install --upgrade pip```  
+> ```python.exe -m pip install --upgrade pip```  
 > ```pip install -r requirements.txt```  
 > 
 >4. В директорию input data положите exel файл со списком сотрудников и их графиком отпусков.
