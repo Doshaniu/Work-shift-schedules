@@ -1,4 +1,7 @@
 from datetime import date
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 HOLIDAYS = {
     date(2026, 1, 1),
@@ -26,3 +29,27 @@ WEEKENDS = (5, 6)
 
 NEW_YEAR_START_DAY = 12
 """Начало рабочего года с 12 января."""
+
+WEEKDAYS = ['Пнд', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс']
+
+YEAR = 2026
+
+QUANTITY_OF_WORKING_HOURS = 8
+"""Количество рабочих часов в день."""
+
+MONTH_TO_NUMBER = {
+    1 : "Январь",
+    2 : "Февраль",
+    3 : "Март",
+    4 : "Апрель",
+    5 : "Май",
+    6 : "Июнь",
+    7 : "Июль",
+    8 : "Август",
+    9 : "Сентябрь",
+    10 : "Октябрь",
+    11 : "Ноябрь",
+    12 : "Декабрь",
+}
+
+XLSX_PATH = BASE_DIR / "output_data"
