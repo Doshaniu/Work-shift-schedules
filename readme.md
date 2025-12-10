@@ -10,11 +10,14 @@
 ## Как развернуть проект локально
 >1. [Клонируйте репозиторий]((https://github.com/Doshaniu/Work-shift-schedules))
 >2. Создайте и активируйте виртуальное окружение командами
-    ```python3 -m venv venv```
-    ```source venv/scripts/activate```
+>
+> ```python3 -m venv venv```  
+> ```source venv/scripts/activate```
 >3. Установите зависимости из файла requirements.txt
-    ```python3 -m pip install --upgrade pip```
-    ```pip install -r requirements.txt```
+>
+> ```python3 -m pip install --upgrade pip```  
+> ```pip install -r requirements.txt```  
+> 
 >4. В директорию input data положите exel файл со списком сотрудников и их графиком отпусков.
 >5. Откройте файл to_exel.py и в строке MONTH введите число обозначающее нужный месяц.
 >6. Запустите файл to_exel.py с помощью терминала командой python .\to_exel.py
