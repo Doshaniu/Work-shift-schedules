@@ -101,7 +101,7 @@ def save_to_excel(schedule: dict, filename: str):
         df.to_excel(writer, index=False, sheet_name=sheet_name)
         apply_style(writer, sheet_name)
 
-MONTH = 12
+MONTH = 5
 
 schedule = generate_month_shift_schedule(year=YEAR, month=MONTH, employees=employees_data)
 save_to_excel(schedule, filename=f"График_работ_2026.xlsx")
